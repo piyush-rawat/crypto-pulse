@@ -28,7 +28,7 @@ const getCoins = async () => {
 };
 
 const Top100 = async () => {
-  let coins: Coin[];
+  let coins: Coin[] = [];
   let errorMessage = null;
 
   try {
